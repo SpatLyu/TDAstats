@@ -5,6 +5,11 @@
 
 using namespace Rcpp;
 
+#ifdef RCPP_USE_GLOBAL_ROSTREAM
+Rcpp::Rostream<true>&  Rcpp::Rcout = Rcpp::Rcpp_cout_get();
+Rcpp::Rostream<false>& Rcpp::Rcerr = Rcpp::Rcpp_cerr_get();
+#endif
+
 // ripser_cpp_dist
 NumericVector ripser_cpp_dist(const NumericVector& dist_r, int dim, float thresh, int p);
 RcppExport SEXP _TDAstats_ripser_cpp_dist(SEXP dist_rSEXP, SEXP dimSEXP, SEXP threshSEXP, SEXP pSEXP) {
