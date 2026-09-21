@@ -27,6 +27,7 @@ Useful links:
 
 Authors:
 \itemize{
+  \item Jason Cory Brunson \email{cornelioid@gmail.com}
   \item Raoul Wadhwa
   \item Andrew Dhawan
   \item Drew Williamson

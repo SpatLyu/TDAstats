@@ -39,9 +39,9 @@ Imports: ggplot2 (>= 2.2.1),
 URL: https://tdaverse.github.io/TDAstats/
 BugReports: https://github.com/tdaverse/TDAstats/issues
 LinkingTo: Rcpp
-RoxygenNote: 7.3.3
 Suggests: testthat (>= 2.0.0),
     knitr,
     rmarkdown,
     covr
 VignetteBuilder: knitr
+Config/roxygen2/version: 8.1.0
