@@ -1,7 +1,7 @@
 Package: TDAstats
 Type: Package
 Title: Pipeline for Topological Data Analysis
-Version: 0.4.2
+Version: 0.4.2.9000
 Authors@R: c(
     person("Raoul", "Wadhwa", role = "aut"),
     person("Andrew", "Dhawan", role = "aut"),
