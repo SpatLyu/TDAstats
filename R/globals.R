@@ -1,1 +1,0 @@
-utils::globalVariables(c("birth", "death", "dimension", "persistence", "vertical.pos"))
